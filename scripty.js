@@ -3,7 +3,7 @@ let num1, num2, operacion = "+";
 function generarNumeros() {
     num1 = Math.floor(Math.random() * 41) - 20;
     num2 = Math.floor(Math.random() * 41) - 20;
-    document.getElementById("numeros").innerText = `${num1} ${getSimbolo()} ${num2}`;
+    document.getElementById("numeros").innerText = `${num1} ${getSimbolo()} ${num2}=`;
 }
 
 function calcularResultado() {
