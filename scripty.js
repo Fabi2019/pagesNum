@@ -59,18 +59,21 @@ document.getElementById("resta").addEventListener("click", () => {
         document.getElementById("numeros").innerText = `${num1} ${getSimbolo()} ${num2}`;
     }
 });
+
 document.getElementById("multiplicacion").addEventListener("click", () => {
     operacion = "*";
     if (num1 && num2) {
         document.getElementById("numeros").innerText = `${num1} ${getSimbolo()} ${num2}`;
     }
 });
+
 document.getElementById("division").addEventListener("click", () => {
     operacion = "/";
     if (num1 && num2) {
         document.getElementById("numeros").innerText = `${num1} ${getSimbolo()} ${num2}`;
     }
 });
+
 document.getElementById("mostrar").addEventListener("click", calcularResultado);
 
 generarNumeros();
