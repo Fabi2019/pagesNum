@@ -1,1 +1,1 @@
-La idea es jugar con operaciones con enteros
+Jugar con operaciones y números enteros
