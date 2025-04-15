@@ -28,7 +28,7 @@ function calcularResultado() {
         default:
             resultado = "Operación no válida";
     }
-    document.getElementById("resultado").innerText = `El resultado de ${num1} ${getSimbolo()} ${num2} es ${resultado}`;
+    document.getElementById("resultado").innerText = `El resultado de ${num1} ${getSimbolo()} ${num2} = es ${resultado}`;
 }
 
 function getSimbolo() {
